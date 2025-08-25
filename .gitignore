@@ -369,3 +369,4 @@ FodyWeavers.xsd
 */Migrations
 /exercise.wwwapi/appsettings.json
 /exercise.wwwapi/appsettings.Development.json
+.idea
