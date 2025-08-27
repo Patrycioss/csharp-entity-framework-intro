@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
-
-namespace exercise.webapi.Models
+﻿namespace exercise.webapi.Models
 {
     public class Book
     {
@@ -9,5 +7,7 @@ namespace exercise.webapi.Models
         
         public int AuthorId { get; set; }
         public Author Author { get; set; }
+        
+        public int PublisherId { get; set; }
     }
 }
